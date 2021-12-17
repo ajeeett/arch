@@ -1,0 +1,2 @@
+export const STATUS_CODE_UNAUTHENTICATED = 403;
+export const STATUS_CODE_SUCCESS = 200;
