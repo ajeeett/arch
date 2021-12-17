@@ -1,0 +1,2 @@
+export const ZOOM_CLIENT_KEY='CKOsmJUX1uyX3HYyKZLZA95FCgmcBvGl9cJl';
+export const ZOOM_CLIENT_SECRET='MjIqYpjou0ErYxjTnN2juFzXzItoBXxYl4QT';

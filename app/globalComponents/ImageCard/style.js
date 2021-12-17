@@ -1,0 +1,131 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: 'white',
+    minWidth: '40%',
+    minHeight: 120,
+    borderColor: '#00000029',
+    borderRadius: 10,
+    margin: 10,
+    width: '90%',
+    alignSelf: 'flex-end',
+    flex: 1,
+    flexDirection: 'row',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.23,
+    shadowRadius: 2.62,
+    elevation: 4,
+  },
+  imageStylesContainer: {
+    position: 'absolute',
+    alignSelf: 'center',
+    left: '-5%',
+    borderRadius: 14,
+  },
+  imageStyles: {
+    borderRadius: 14,
+  },
+  cardContent: {
+    flex: 1,
+    paddingVertical: 20,
+    justifyContent: 'center',
+  },
+  heading: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    alignItems: 'center',
+  },
+  headingContent: {
+    fontSize: 12,
+    color: '#00000080',
+    textTransform: 'uppercase',
+  },
+  subHeadingContent: {
+    fontSize: 12,
+    color: '#00000080',
+  },
+  contentStyle: {
+    fontSize: 14,
+    paddingTop: 4,
+    color: '#2A2A2A',
+    fontFamily: 'Roboto-Medium',
+  },
+  liveView: {
+    alignItems: 'flex-end',
+    marginRight: 15,
+    backgroundColor: '#FF0000',
+    borderRadius: 3,
+    flexDirection: 'row',
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+  },
+  liveDot: {
+    backgroundColor: '#fff',
+    borderRadius: 3,
+    height: 5,
+    width: 5,
+    marginBottom: 5,
+    marginRight: 5,
+  },
+  liveText: {
+    color: '#FFF',
+    fontSize: 12,
+    fontFamily: 'Roboto-Medium',
+    fontWeight: 'bold',
+  },
+  calendarCard: {
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: '#F2F2F2',
+    borderRadius: 10,
+  },
+  rowCalendar: {
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+  },
+  monthName: {
+    backgroundColor: '#EE5636',
+    paddingLeft: 15,
+    paddingRight: 15,
+    paddingBottom: 5,
+    paddingTop: 5,
+    borderTopRightRadius: 4,
+    borderTopLeftRadius: 4,
+  },
+  customMonth: {
+    color: 'white',
+    fontSize: 12,
+    textTransform: 'uppercase',
+  },
+  dayName: {
+    backgroundColor: '#F2F2F2',
+    paddingLeft: 15,
+    paddingRight: 15,
+    borderBottomRightRadius: 4,
+    borderBottomLeftRadius: 4,
+  },
+  customDay: {
+    fontSize: 24,
+    color: '#000000',
+    fontWeight: 'bold',
+  },
+  subHeading: {
+    backgroundColor: '#00000080',
+    width: 5,
+    height: 5,
+    borderRadius: 100,
+    marginHorizontal: 8,
+  },
+  subContentStyle: { marginTop: 10, marginHorizontal: 10, width: '90%' },
+  liveOuterContainer: { position: 'absolute', right: 0 },
+  liveInnerContainer: { flexDirection: 'row', justifyContent: 'center' },
+  iconColorRed: { color: 'red' },
+  liveText: { color: 'white', fontSize: 12 },
+  
+});
+export default styles;
